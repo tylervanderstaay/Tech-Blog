@@ -1,0 +1,18 @@
+{{#each posts as |post|}}
+<div class='card'>
+    <div class="card-header">
+        <h2>
+            <a href="/post/{{post.id}}">{{post.title}}</a>
+        </h2>
+        <p>{{post.user.username}} at {{format_date post.date_created}}</p>
+    </div>
+    <div class="card-content">
+        <p>
+            {{{restore_content post.post}}}
+        </p>
+    </div>
+    <div class="card-btn">
+        <a href="/post/{{post.id}}"><button>See more</button></a>
+    </div>
+</div>
+{{/each}}

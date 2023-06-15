@@ -66,7 +66,7 @@ router.get('/dashboard', Auth, async (req, res) => {
 //post_byId page
 router.get('/post/:id', async (req, res) => {
     try {
-        const postData = await POst.findByPk(req.params.id, {
+        const postData = await Post.findByPk(req.params.id, {
             include: [
                 {
                     model: User,
