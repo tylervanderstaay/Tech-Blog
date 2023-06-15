@@ -1,0 +1,17 @@
+[
+    {
+      "title": "This is an example post",
+      "content": "This is example text",
+      "user_id": "1"
+    },
+    {
+      "title": "This is also an example post",
+      "content": "It has an id of 2.",
+      "user_id": "2"
+    },
+    {
+      "title": "A third post.",
+      "content": "Conveniently it's postID is 3.",
+      "user_id": "3"
+    }
+  ]

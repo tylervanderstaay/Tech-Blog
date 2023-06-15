@@ -1,0 +1,23 @@
+[
+    {
+      "firstname": "Joe",
+      "lastname": "Beagle",
+      "username": "appleman",
+      "email": "appleman@gmail.com",
+      "password": "password"
+    },
+    {
+      "firstname": "Harley",
+      "lastname": "Sorbet",
+      "username": "spiders",
+      "email": "spiders@yahoo.com",
+      "password": "password"
+    },
+    {
+      "firstname": "Jay",
+      "lastname": "Yaj",
+      "username": "screaming",
+      "email": "amexscammer@gmail.com",
+      "password": "password"
+    }
+  ]
